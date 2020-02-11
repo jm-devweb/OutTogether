@@ -7,15 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="back" />
+        <module name="outtogether" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="back" target="11" />
+      <module name="outtogether" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="back" options="-parameters" />
+      <module name="outtogether" options="-parameters" />
     </option>
   </component>
 </project>
